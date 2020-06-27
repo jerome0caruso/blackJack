@@ -1,0 +1,58 @@
+body {
+    background-image: url(images/back.jpg);
+}
+h2{
+    color:white;
+}
+#bj-result{
+    color: white;
+}
+.container {
+    width:75%;
+    text-align: center;
+    margin: 0 auto;
+}
+.table, th, td {
+    width: 30%;
+    margin-top: 10px;
+    border: 2px solid black;
+}
+.flex-row1{
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-image: url(images/bjback.jpg);
+    color:#fff;
+}
+#person-box,
+#dealer-box {
+    border: 1px solid black;
+    height: 350px;
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+}
+#person-box img,
+#dealer-box img {
+    width: 86px;
+    height: 120px;
+    margin: 4px;
+}
+.flex-row2 {
+    display: flex;
+    background-color: rgb(14, 114, 64);
+    border: 1px solid black;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.flex-row3 {
+    display: flex;
+    background-color: rgb(245, 255, 250);
+    border: 1px solid black;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
