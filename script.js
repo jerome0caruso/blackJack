@@ -164,7 +164,7 @@ function showResult(winner){
             document.getElementById("draw").textContent = blackjackGame.draws;
             bustSound.play();
             message = 'You drew!';
-            messageColor = 'black';
+            messageColor = 'white';
         }
         document.getElementById('bj-result').textContent = message;
         document.getElementById('bj-result').style.color = messageColor;
